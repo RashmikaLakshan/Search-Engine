@@ -2,13 +2,13 @@
 	function MyFunction(aggregate){
 		keyword = aggregate.name;
 		console.log("keyword: "+keyword);
-		songs_array = document.getElementsByClassName('search-result row');
-		songs_array = Array.from(songs_array);
-		matching_songs = songs_array.filter(keyword_filter,keyword);
-		len_matching = matching_songs.length;
-		len_original = songs_array.length;
-		section = document.getElementById('song_section');
-		section.innerHTML = matching_songs.map(e => e.outerHTML).join()
+		authors_array = document.getElementsByClassName('search-result row');
+		authors_array = Array.from(authors_array);
+		matching_authors = authors_array.filter(keyword_filter,keyword);
+		len_matching = matching_authors.length;
+		len_original = authors_array.length;
+		section = document.getElementById('authors_section');
+		section.innerHTML = matching_authors.map(e => e.outerHTML).join()
 		console.log(section);
 		header = document.getElementById('results');
 		header.innerHTML = `<h2 class="lead" id="results"><strong class="text-danger">${len_matching}</strong> results out of ${len_original} matches the criteria</h2>`;
@@ -28,67 +28,102 @@
 
 </script>
 
-<div class="container">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200;1,300&display=swap" rel="stylesheet">
+
+<div class="container" style="background-color:rgb(255, 255, 255); font-family: Poppins; margin: 0 50px;">
     <head>
         <title>Authors</title>
     </head>
     <hgroup class="mb20">
-        <h1 style="background-color:powderblue;"><center>Welcome to Authors Search Engine</center></h1>
+        <h1 style="background-color:rgb(236, 240, 25); border-radius: 50px; margin:0 auto"><center>Welcome to Authors Search Engine</center></h1>
         <h3 class="lead"><center>Enter the search query</center></strong></h3>
     </hgroup>
 	<form action="http://127.0.0.1:5000/" method="post" align="center">
-		<input type="text" class="searchTerm" name="searchTerm"  placeholder="Search Here">
-    	<input type="submit" value="Search">
+		<input type="text" class="searchTerm" name="searchTerm"  placeholder="Search Here" style="border: 1px solid rgb(143, 143, 143); padding: 5px 10px; width:20%; border-radius: 50px; background:rgb(235, 235, 235);">
+    	<input type="submit" value="Search" style="border: 1px solid rgb(143, 143, 143); padding: 5px 10px; border-radius: 50px; background:rgb(235, 235, 235); font-weight: bold;">
 	</form>
 
 	{% if hits %}
-        <head>
-            <title>Authors Search</title>
-        </head>
-    <hgroup class="mb20">
-		<h2><i><u>Search Results</u></i></h2>
-		<h3 class="lead" id="results"><strong class="text-danger">{{ resultCount }}</strong> results founded for : <strong class="text-danger">{{  query  }}</strong></h3>
-	</hgroup>
+		<head>
+			<title>Authors</title>
+		</head>
+		<hgroup class="mb20">
+			<!-- <h2><i><u>Search Results</u></i></h2> -->
+			<h3 class="lead" id="results"><center><span style="color:#f00; font-size: large;">{{ resultCount }}</span> Search results founded for : <span style="font-size: large; font-weight: bold">" {{  query  }} "</span></center></h3>
+		</hgroup>
 
 
-    <section id='song_section' class="col-md-8">
-		{% for hit in hits %}
-		<article class="search-result row">
-			<div class="col-md-12">
-				<h3 style="color:darkblue;">{{ hit._source.title }}</h3>
-				<ul class="meta-search">
-					<li><i class="glyphicon glyphicon-tags"></i> <span>Author Name - {{ hit._source.name }} ({{ hit._source.name_english }})</span></li>
-					<li><i class="glyphicon glyphicon-tags"></i> <span>Popularity - {{ hit._source.views }}</span></li>
-                    <li><i class="glyphicon glyphicon-tags"></i> <span>Date of Birth - {{ hit._source.date_of_birth }}</span></li>
-					<li><i class="glyphicon glyphicon-tags"></i> <span>Birth Place - {{ hit._source.birth_place }} ({{ hit._source.birth_place_english }})</span></li>
-                    <li><i class="glyphicon glyphicon-tags"></i> <span>Education - {{ hit._source.education }} </span></li>
-                    <li><i class="glyphicon glyphicon-tags"></i> <span>Languages - {{ hit._source.languages }} </span></li>
-                    <li><i class="glyphicon glyphicon-tags"></i> <span>Categories - {{ hit._source.categories }} </span></li>
-                    <li><i class="glyphicon glyphicon-tags"></i> <span>:List of Books - {{ hit._source.list_of_books }} </span></li>
-                    <li><i class="glyphicon glyphicon-tags"></i> <span>Description - </span></li>
-				</ul>
-				<p style="white-space: pre-line">{{ hit._source.description }}</p>
-			</div>
-			<div class="col-md-6">
-
-			</div>
-			<span class="clearfix borda"></span>
-		</article>
-		{% endfor %}
-	</section>
+		<section id='authors_section' class="col-md-8">
+			{% for hit in hits %}
+			<hr style="border: 1px solid #f00">
+			<article class="search-result row">
+				<div class="col-md-12">
+					<h3 style="color:darkblue;">{{ hit._source.title }}</h3>
+					<ul class="meta-search">
+						<li><i class="glyphicon glyphicon-tags"></i> <span>Author Name - {{ hit._source.name }} ({{ hit._source.name_english }})</span></li>
+						<li><i class="glyphicon glyphicon-tags"></i> <span>Date of Birth - {{ hit._source.date_of_birth }}</span></li>
+						<li><i class="glyphicon glyphicon-tags"></i> <span>Birth Place - {{ hit._source.birth_place }} ({{ hit._source.birth_place_english }})</span></li>
+						<li><i class="glyphicon glyphicon-tags"></i> <span>Education - </span></li>
+							<ul>
+								{% if hit._source.education | length >= 1 %}
+									{% for item in hit._source.education %}
+										<li>{{item}}</li>
+									{% endfor %}
+								{% else %}
+									<span>දත්ත නොමැත</span>
+								{% endif %}
+							</ul>
+						<li><i class="glyphicon glyphicon-tags"></i> <span>Languages - </span></li>
+							<ul>
+								{% if hit._source.languages | length >= 1 %}
+									{% for item in hit._source.languages %}
+										<li>{{item}}</li>
+									{% endfor %}
+								{% else %}
+									<span>දත්ත නොමැත</span>
+								{% endif %}
+							</ul>
+						<li><i class="glyphicon glyphicon-tags"></i> <span>Categories - </span></li>
+							<ul>
+								{% if hit._source.categories | length >= 1 %}
+									{% for item in hit._source.categories %}
+										<li>{{item}}</li>
+									{% endfor %}
+								{% else %}
+									<span>දත්ත නොමැත</span>
+								{% endif %}
+							</ul>
+						<li><i class="glyphicon glyphicon-tags"></i> <span>List of Books - </span></li>
+							<ul>
+								{% if hit._source.list_of_books | length >= 1 %}
+									{% for item in hit._source.list_of_books %}
+										<li>{{item}}</li>
+									{% endfor %}
+								{% else %}
+									<span>දත්ත නොමැත</span>
+								{% endif %}
+							</ul>
+						<li><i class="glyphicon glyphicon-tags"></i> <span>Description - </span></li>
+					</ul>
+					<p style="white-space: pre-line">{{ hit._source.description }}</p>
+				</div>
+			</article>
+			{% endfor %}
+		</section>
 
 
 	{% else %}
 		{% if init %}
             <head>
-            <title>Song Search</title>
+            <title>Authors</title>
             </head>
 
 
 		{% else %}
 		<hgroup class="mb20">
-			<h2><i><u>Search Results</u></i></h2>
-			<h3 class="lead"><strong class="text-danger">No</strong> results found for : <strong class="text-danger">{{  query  }}</strong></h3>
+			<h3 class="lead"><center><span style="color:#f00; font-size: large;">No</span> Search results founded for : <span style="font-size: large; font-weight: bold">" {{  query  }} "</span></center></h3>
 		</hgroup>
 		{% endif %}
 	{% endif %}

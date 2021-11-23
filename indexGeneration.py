@@ -144,8 +144,8 @@ def read_authors():
     my_file = os.path.join(my_file1, 'cleaned_authors.json')
     
     with open(my_file,'r',encoding='utf8') as tra_file:
-        tra_songs = json.loads(tra_file.read())
-        results_list = [a for num, a in enumerate(tra_songs) if a not in tra_songs[num + 1:]]
+        tra_authors = json.loads(tra_file.read())
+        results_list = [a for num, a in enumerate(tra_authors) if a not in tra_authors[num + 1:]]
         return results_list
 
 

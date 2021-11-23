@@ -9,12 +9,12 @@ eSearch = Elasticsearch(HOST="http://localhost",PORT=9200)
 INDEX = 'author-index'
 
 # synonym keywords
-synonym_writer = ['ගත්කරු','රචකයා','ලියන්නා','ලියන','රචිත','ලියපු','ලියව්‌ව','රචනා','රචක','ලියන්','ලියූ']
+synonym_writer = ['ගත්කරු','රචකයා', 'කතුවරයා', 'ලියන්නා','ලියන','රචිත','ලියපු','ලියව්‌ව','රචනා','රචක','ලියන්','ලියූ']
 synonym_eng_writer = ['author','write','wrote','writer','written','bookwriter']
 
 synonym_birth_date = ['උපන්දිනය','ජන්ම දිනය','උපන්','උපත ලද','උපත','මෙලොවට','මෙලොව','එළිය','මෙලොවට','ඉපදුන', 'දින']
 
-synonym_birth_place = ['තැන','ස්ථානය','ප්‍රදේශය','ගම','ප්‍රාන්තය', 'පළාත','රට']
+synonym_birth_place = ['තැන','ස්ථානය','ප්‍රදේශය', 'නගරයේ', 'නගරය', 'ගම', 'ගමේ', 'ප්‍රාන්තය', 'ප්‍රාන්තයේ', 'පළාත','රට', 'රටේ']
 synonym_eng_birth_place = ['country', 'village', 'province', 'birth place', 'place', 'place of birth']
 
 synonym_education = ['ඉගෙනුම', 'අධ්‍යාපනය', 'ඉගෙන', 'ශික්ෂා', 'ඉගෙනුම', 'ශික්ෂා']
@@ -23,7 +23,7 @@ synonym_languages = ['භාෂාව', 'භාෂා', 'බස', 'බසින�
 
 synonym_books = ['පොත', 'පොත්', 'ග්‍රන්ථ', 'කවි', 'කවිය']
 
-synonym_list = [ synonym_writer, synonym_eng_writer, synonym_birth_date, synonym_birth_place, synonym_eng_birth_place, synonym_education, synonym_languages, synonym_books]
+synonymList = [ synonym_writer, synonym_eng_writer, synonym_birth_date, synonym_birth_place, synonym_eng_birth_place, synonym_education, synonym_languages, synonym_books]
 
 
 
@@ -34,12 +34,12 @@ def search(userQuery):
     keywordFields = []
     finalQueryField = []
     synonymFields = ["name","name_english", "date_of_birth", "birth_place", "birth_place_english","education","languages", "list_of_books"]
-    all_fields = ["name","name_english", "date_of_birth","birth_place", "birth_place_english", "education", "languages", "categories", "list_of_books", "description"]
+    allFields = ["name","name_english", "date_of_birth","birth_place", "birth_place_english", "education", "languages", "categories", "list_of_books", "description"]
 
     # remove synonyms from user query
     for word in tokens:
         for i in range(8):
-            if word.strip() in synonym_list[i]:
+            if word.strip() in synonymList[i]:
                 field = synonymFields[i]
                 keywordFields.append(synonymFields[i])
                 print(field, 'field added to the SEARCH FIELD LIST for the word', word)
@@ -60,21 +60,23 @@ def search(userQuery):
         finalQuery = userQuery
     else:
         finalQuery = " ".join(remainderTokens)
+    print("\nfinal processed Query ::", finalQuery)
 
     #Boosting
-    for field in all_fields:
+    for field in allFields:
         if (field in list(set(keywordFields))):
             finalQueryField.append(field+"^5")
         else:
             finalQueryField.append(field)
+    print("\nfinal query fields ::", finalQueryField)
 
     # generate query json request
     if(len(keywordFields)==0):
-        queryRequestJson = multi_match_cross(finalQuery, all_fields)
+        queryRequestJson = multi_match_phrase(finalQuery, allFields)
     else:
-        queryRequestJson = multi_match_phrase(finalQuery, finalQueryField)
+        queryRequestJson = multi_match_cross(finalQuery, finalQueryField)
 
-    print("\nQuery reqest body :: ",queryRequestJson)
+    print("\nQuery reqest body :: \n",queryRequestJson)
     search_result = eSearch.search(index=INDEX, body=queryRequestJson)
     return search_result
 

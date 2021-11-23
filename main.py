@@ -11,10 +11,10 @@ def searchApi():
     if request.method == 'POST':
         print ("POST METHOD")
         userQuery = request.form['searchTerm']
+        print("\nuser Query  ::", userQuery,'\n') 
+
         search_result = search(userQuery)
-        
-        print("\nuser Query  ::", userQuery)
-        print ("\nresponse for user query ::",search_result)
+        print ("\nresponse for user query :: \n",search_result)
 
         hits_result = search_result['hits']['hits']
         resultsCount = len(hits_result)
