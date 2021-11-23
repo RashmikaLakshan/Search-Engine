@@ -6,7 +6,7 @@ Authors Search Engine using ElasticSearch and Python
 * Download and Install the _ElasticSearch_
 * Install the _ICU_Tokenizer_ plugin on the ElasticSearch
 * Install the _python3_ with _pip3_
-* Install the python packages in the _requirements.txt_ by _pip_install_-r_requirements.txt_
+* Install the python packages in the _requirements.txt_ by _pip install -r requirements.txt_
 
 ### Search Engine running Instructions
 1. First start the ElasticSearch locally on port 9200.

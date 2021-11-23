@@ -170,8 +170,8 @@
         "name": "සිරි ගුනසිංහ",
         "name_english": "Siri Gunasinghe",
         "date_of_birth": "1925 පෙබරවාරි 18",
-        "birth_place": "",
-        "birth_place_english": "",
+        "birth_place": "දත්ත නොමැත",
+        "birth_place_english": "NaN",
         "education": "",
         "languages": [
             "සිංහල"
@@ -317,8 +317,8 @@
         "name": "ගජමන් නෝනා",
         "name_english": "Gajaman Nona",
         "date_of_birth": "1746 මාර්තු 10",
-        "birth_place": "",
-        "birth_place_english": "",
+        "birth_place": "දත්ත නොමැත",
+        "birth_place_english": "NaN",
         "education": "",
         "languages": [
             "සිංහල"
@@ -340,8 +340,8 @@
         "name": "එරික් ඉලයප්ආරච්චි",
         "name_english": "Eric Ilayaparachchi",
         "date_of_birth": "1954 දෙසැම්බර් 16",
-        "birth_place": "",
-        "birth_place_english": "",
+        "birth_place": "දත්ත නොමැත",
+        "birth_place_english": "NaN",
         "education": "",
         "languages": [
             "සිංහල"
@@ -596,8 +596,8 @@
         "name": "කේ.එම්. ද සිල්වා",
         "name_english": "K.M. de Silva",
         "date_of_birth": "1931 දෙසැම්බර් 31",
-        "birth_place": "",
-        "birth_place_english": "",
+        "birth_place": "දත්ත නොමැත",
+        "birth_place_english": "NaN",
         "education": [
             "ලංකා විශ්වවිද්‍යාලය",
             "පේරාදෙණිය ලන්ඩන් විශ්ව විද්යාලය"
@@ -643,10 +643,10 @@
     },
     {
         "name": "ජේ.ආර්.ජයවර්ධන",
-        "name_english": "",
+        "name_english": "NaN",
         "date_of_birth": "1906 සැප්තැම්බර් 17",
         "birth_place": "කොළඹ",
-        "birth_place_english": "",
+        "birth_place_english": "NaN",
         "education": [
             "කොළඹ රාජකීය විද්‍යාලය"
         ],
@@ -663,10 +663,10 @@
     },
     {
         "name": "ජී. ඩී. එල්. පෙරේරා",
-        "name_english": "",
-        "date_of_birth": "",
+        "name_english": "NaN",
+        "date_of_birth": "දත්ත නොමැත",
         "birth_place": "කොළඹ",
-        "birth_place_english": "",
+        "birth_place_english": "NaN",
         "education": [
             "කොළඹ නාලන්දා විද්‍යාලය"
         ],
@@ -1087,10 +1087,10 @@
     },
     {
         "name": "ගාමිණී හත්තොටුවේගම",
-        "name_english": "",
+        "name_english": "Gamini Haththotuwegama",
         "date_of_birth": "1939 නොවැම්බර් 29",
         "birth_place": "ගාල්ල",
-        "birth_place_english": "",
+        "birth_place_english": "Galle",
         "education": [
             "රිච්මන්ඩ් විද්‍යාලය"
         ],
@@ -1204,10 +1204,10 @@
     },
     {
         "name": "සයිමන් නවගත්තේගම",
-        "name_english": "",
+        "name_english": "Sayman Nawaththegama",
         "date_of_birth": "සැප්තැම්බර් 15, 1940",
         "birth_place": "අනුරාධපුර",
-        "birth_place_english": "",
+        "birth_place_english": "Anuradhapura",
         "education": "",
         "languages": [
             "සිංහල"
@@ -1236,10 +1236,10 @@
     },
     {
         "name": "ජයලාල් රෝහන",
-        "name_english": "",
+        "name_english": "Jayalal Rohana",
         "date_of_birth": "1964 නොවැම්බර් 1",
         "birth_place": "කොළඹ",
-        "birth_place_english": "",
+        "birth_place_english": "Colombo",
         "education": [
             "කෝට්ටේ ආනන්ද ශාස්ත්‍රාලය",
             "පේරාදෙනිය විශ්ව විද්‍යාලය"
@@ -1342,10 +1342,10 @@
     },
     {
         "name": "විජයතුංග මුදලිගේ හරිශ්චන්ද්‍ර විජයතුංග",
-        "name_english": "",
+        "name_english": "Wijayathunga Mudalige Harishchandra Wijayathunga",
         "date_of_birth": "1931 ඔක්තෝබර් 25",
         "birth_place": "මිනුවන්ගොඩ",
-        "birth_place_english": "",
+        "birth_place_english": "Minuwangoda",
         "education": [
             "කොළඹ නාලන්දා විද්‍යාලය",
             "කොළඹ විශ්ව විද්‍යාලය"
@@ -1438,10 +1438,10 @@
     },
     {
         "name": "කළුතර කෝරලලාගේ එඩ්වඩ් විනිෆ්‍රඩ් බ්‍රිටෝ අදිකාරම්",
-        "name_english": "",
+        "name_english": "K. K. E. V. Brito Adikaram",
         "date_of_birth": "1905 මාර්තු 05",
         "birth_place": "ශ්‍රී ලංකාව",
-        "birth_place_english": "",
+        "birth_place_english": "Sri Lanka",
         "education": [
             "ලන්ඩන් ශාස්ත්‍රාලය"
         ],
@@ -1720,10 +1720,10 @@
     },
     {
         "name": "පරාක්‍රම කොඩිතුවක්කු",
-        "name_english": "",
-        "date_of_birth": "",
-        "birth_place": "",
-        "birth_place_english": "",
+        "name_english": "NaN",
+        "date_of_birth": "දත්ත නොමැත",
+        "birth_place": "දත්ත නොමැත",
+        "birth_place_english": "NaN",
         "education": "",
         "languages": [
             "සිංහල"
@@ -1818,9 +1818,9 @@
     {
         "name": "ෂෙල්ටන් පයාගල",
         "name_english": "Shelton Payagala",
-        "date_of_birth": "",
-        "birth_place": "",
-        "birth_place_english": "",
+        "date_of_birth": "දත්ත නොමැත",
+        "birth_place": "දත්ත නොමැත",
+        "birth_place_english": "NaN",
         "education": [
             "ශ්‍රී පාද විද්‍යාලය",
             "වේල්ස් කුමර විද්‍යාලය මොරටුව"
@@ -2052,7 +2052,7 @@
     {
         "name": "චන්ද්‍ර රිචඩ් ද සිල්වා",
         "name_english": "Chandra Richard De Silva",
-        "date_of_birth": "",
+        "date_of_birth": "දත්ත නොමැත",
         "birth_place": "කොළඹ",
         "birth_place_english": "Colombo",
         "education": "",
@@ -2230,8 +2230,8 @@
         "name": "අජිත් තිලකසේන",
         "name_english": "Ajith Thilakasena",
         "date_of_birth": "1933",
-        "birth_place": "",
-        "birth_place_english": "",
+        "birth_place": "දත්ත නොමැත",
+        "birth_place_english": "NaN",
         "education": "",
         "languages": [
             "සිංහල"
@@ -2606,7 +2606,7 @@
     {
         "name": "ෂෙහාන් කරුණාතිලක",
         "name_english": "Shehan Karunathilake",
-        "date_of_birth": "",
+        "date_of_birth": "දත්ත නොමැත",
         "birth_place": "කොළඹ",
         "birth_place_english": "Colombo",
         "education": [
@@ -2646,7 +2646,7 @@
     {
         "name": "චන්ද්‍රරත්න බණ්ඩාර",
         "name_english": "Chandrarathna Bandara",
-        "date_of_birth": "",
+        "date_of_birth": "දත්ත නොමැත",
         "birth_place": "මහනුවර",
         "birth_place_english": "Kandy",
         "education": [
@@ -2669,9 +2669,9 @@
     {
         "name": "උපතිස්ස රහතන් වහන්සේ",
         "name_english": "Upathissa Thera",
-        "date_of_birth": "",
-        "birth_place": "",
-        "birth_place_english": "",
+        "date_of_birth": "දත්ත නොමැත",
+        "birth_place": "දත්ත නොමැත",
+        "birth_place_english": "NaN",
         "education": "",
         "languages": [
             "සිංහල"
@@ -2714,7 +2714,7 @@
     {
         "name": "අගතා ක්‍රිස්ටි",
         "name_english": "Agatha Christie",
-        "date_of_birth": "",
+        "date_of_birth": "දත්ත නොමැත",
         "birth_place": "ටෝකි , ඩෙවන්, එංගලන්තය",
         "birth_place_english": "Torquay, Devon, England",
         "education": [

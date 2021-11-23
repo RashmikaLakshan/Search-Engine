@@ -9,15 +9,15 @@ def __CleaningnUpdatingData(author_file, cleaned_authors_file):
    for i,obj in enumerate(data['Authors']):
 
       cleanedObj = {
-         "name": obj["name"].strip() if ("name" in obj.keys()) else '',
-         "name_english": obj["name_english"].strip() if ("name_english" in obj.keys()) else '',
-         "date_of_birth": obj["date_of_birth"].strip() if ("date_of_birth" in obj.keys()) else '',
-         "birth_place": obj["birth_place"].strip() if ("birth_place" in obj.keys()) else '',
-         "birth_place_english": obj["birth_place_english"].strip() if ("birth_place_english" in obj.keys()) else '',
+         "name": obj["name"].strip() if ("name" in obj.keys()) else 'දත්ත නොමැත',
+         "name_english": obj["name_english"].strip() if ("name_english" in obj.keys()) else 'NaN',
+         "date_of_birth": obj["date_of_birth"].strip() if ("date_of_birth" in obj.keys()) else 'දත්ත නොමැත',
+         "birth_place": obj["birth_place"].strip() if ("birth_place" in obj.keys()) else 'දත්ත නොමැත',
+         "birth_place_english": obj["birth_place_english"].strip() if ("birth_place_english" in obj.keys()) else 'NaN',
          "education": list(map(str.strip, obj["education"].strip().split(','))) if ("education" in obj.keys()) else '',
          "languages": list(map(str.strip, obj["languages"].strip().split(','))) if ("languages" in obj.keys()) else '',
          "categories": list(map(str.strip, obj["categories"].strip().split(','))) if ("categories" in obj.keys()) else '',
-         "list_of_books": list(map(str.strip, obj["list_of_books"].strip().split(','))) if ("list_of_books" in obj.keys()) else '',
+         "list_of_books": list(map(str.strip, obj["list_of_books"].strip().split(','))) if ("list_of_books" in obj.keys()) else 'දත්ත නොමැත',
          "description":  obj["description"].strip() if ("description" in obj.keys()) else ''
       }
 
