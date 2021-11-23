@@ -1,5 +1,5 @@
 from elasticsearch import Elasticsearch, helpers
-from elasticsearch_dsl import Index
+# from elasticsearch_dsl import Index
 import json,re,os
 client = Elasticsearch(HOST="http://localhost",PORT=9200)
 INDEX = 'author-index'
@@ -41,7 +41,15 @@ def createIndex():
                             }
                         },
                         "analyzer" : "sinhala-analyzer",
-                        "search_analyzer": "standard"
+                    },
+                    "name_english": {
+                        "type": "text",
+                        "fields": {
+                            "keyword": {
+                                "type": "keyword",
+                                "ignore_above": 256
+                            }
+                        },
                     },
                     "date_of_birth": {
                         "type": "text",
@@ -52,7 +60,6 @@ def createIndex():
                             }
                         },
                         "analyzer" : "sinhala-analyzer",
-                        "search_analyzer": "standard"
                     },
                     "birth_place": {
                         "type": "text",
@@ -63,7 +70,15 @@ def createIndex():
                             }
                         },
                         "analyzer" : "sinhala-analyzer",
-                        "search_analyzer": "standard"
+                    },
+                    "birth_place_english": {
+                        "type": "text",
+                        "fields": {
+                            "keyword": {
+                                "type": "keyword",
+                                "ignore_above": 256
+                            }
+                        },
                     },
                     "education": {
                         "type": "text",
@@ -74,7 +89,6 @@ def createIndex():
                             }
                         },
                         "analyzer" : "sinhala-analyzer",
-                        "search_analyzer": "standard"
                     },
                     "languages": {
                         "type": "text",
@@ -85,7 +99,6 @@ def createIndex():
                             }
                         },
                         "analyzer" : "sinhala-analyzer",
-                        "search_analyzer": "standard"
                     },
                     "categories": {
                         "type": "text",
@@ -96,7 +109,6 @@ def createIndex():
                             }
                         },
                         "analyzer" : "sinhala-analyzer",
-                        "search_analyzer": "standard"
                     },
                     "list_of_books": {
                         "type": "text",
@@ -107,7 +119,6 @@ def createIndex():
                             }
                         },
                         "analyzer" : "sinhala-analyzer",
-                        "search_analyzer": "standard"
                     },
                     "description": {
                         "type": "text",
@@ -118,24 +129,11 @@ def createIndex():
                             }
                         },
                         "analyzer" : "sinhala-analyzer",
-                        "search_analyzer": "standard"
-                    },
-                    # "views": {
-                    #     "type": "long",
-                        # "fields": {
-                        #     "keyword": {
-                        #         "type": "keyword",
-                        #         "ignore_above": 256
-                        #     }
-                        # },
-                # }
+                    }
             }
         }
     }
 
-
-    # index = Index(INDEX,using=client)
-    # result = index.create()
     result = client.indices.create(index=INDEX , body =settings)
     print (result)
 
@@ -177,16 +175,17 @@ def clean_function(description):
     else:
         return None
 
-def data_generation(authors):
+def data_generation(authors):  
     for author in authors:
 
         name = author["name"]
+        name_english = author["name_english"]
         description = clean_function(author["description"])
-        # views = song['views']
         categories = author["categories"]
         list_of_books = author["list_of_books"]
         date_of_birth = author["date_of_birth"]
         birth_place = author["birth_place"]
+        birth_place_english = author["birth_place_english"]
         education = author["education"]
         languages = author["languages"]
         
@@ -194,13 +193,15 @@ def data_generation(authors):
             "_index": INDEX,
             "_source": {
                 "name": name,
+                "name_english": name_english,
                 "date_of_birth": date_of_birth,
                 "birth_place": birth_place,
+                "birth_place_english": birth_place_english,
                 "education": education,
                 "languages": languages,
                 "categories": categories,
                 "list_of_books":list_of_books,
-                "description":description,
+                "description":description
             },
         }
 

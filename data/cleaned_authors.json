@@ -1,8 +1,10 @@
 [
     {
         "name": "මහාචාර්ය එදිරිවීර සරච්චන්ද්‍",
-        "date_of_birth": "3 June 1914",
+        "name_english": "Prof. Ediriweera Sarachchandra",
+        "date_of_birth": "03 ජූනි 1914",
         "birth_place": "ගාල්ල",
+        "birth_place_english": "Galle",
         "education": [
             "ගාල්ලේ රිච්මන්ඩ් විද්‍යාලයෙන් ද",
             "පානදුර ශාන්ත ජෝන් විද්‍යාලයෙන් ද",
@@ -29,8 +31,10 @@
     },
     {
         "name": "ආතර් සී ක්ලාක්",
+        "name_english": "Arthur C. Clark",
         "date_of_birth": "1917 දෙසැම්බර් 16",
         "birth_place": "එංගලන්තයේ සමර්සෙට් මයින්හෙඩ් හිදීය",
+        "birth_place_english": "In Somerset Minehead, England",
         "education": [
             "ලන්ඩන්හි කිංග්ස් විද්‍යාලය"
         ],
@@ -52,8 +56,10 @@
     },
     {
         "name": "ජී බී සේනානායක",
-        "date_of_birth": "14 July 1913",
+        "name_english": "G.B Senanayake",
+        "date_of_birth": "14  ජුලි 1913",
         "birth_place": "මුල්ලේරියාව, කොළඹ,",
+        "birth_place_english": "Mulleriyawa, Colombo,",
         "education": [
             "කොළඹ ආනන්ද විද්‍යලයේ"
         ],
@@ -81,8 +87,10 @@
     },
     {
         "name": "මාර්ටින් වික්‍රමසිංහ",
+        "name_english": "Martin Wickramasinghe",
         "date_of_birth": "1890 මැයි 29",
         "birth_place": "ශ්‍රී ලංකාවේ කොග්ගල",
+        "birth_place_english": "Koggala in Sri Lanka",
         "education": [
             "ගාල්ලේ ඉංග්‍රීසි පාසලක් වූ බොනවිස්ටා විද්‍යාලය"
         ],
@@ -116,19 +124,11 @@
         "description": "ළමා හේවගේ දොන් මාර්ටින් වික්‍රමසිංහ (1890 මැයි 29 – 1976 ජුලි 23) ළමා හේවගේ දොන් බස්තියන් ද සිල්වා (පසුකාලීනව දොන් බස්තියන් වික්‍රමසිංහ යන නමින් හඳුන්වා තිබේ.)[1][2] සහ මාගාල්ල බලපිටිය ලියනගේ තොච්චොහාමි යන යුවලට දාව දස දෙනෙකුගෙන් යුතු පවුලේ එකම පිරිමි දරුවා ලෙස ශ්‍රී ලංකාවේ කොග්ගල ග්‍රාමයේ දී උපත ලැබීය. කොග්ගල ග්‍රාමය එක් පැත්තකින් ගල් පරයකින්ද, අනෙක් පසින් කොග්ගල ඔයේ අතු ගංගාවන් විශාල ප්‍රමාණයකින් එකතුවන ජල ප්‍රවාහය විසින් නිර්මාණය කළ විශාල වැවකින්ද සමන්විත විය.මුහුද කුඩා දුපත් වලින් සමන්විත වූ වැව ශාක හා සතුන් ද පසෙකින් වූ වන ගහනයෙන් ද සුසැදි භූ දර්ශන මෙන් ම ගම්මානයේ ජනතාවගේ වෙනස්වන ජීවන ක්‍රම සහ සංස්කෘතිය ඔහුගේ පසුකාලීන නිර්මාණ කෙරෙහි විශාල බලපෑමක් ඇති කළේ ය."
     },
     {
-        "name": "රජීව විජේසිංහ",
-        "date_of_birth": "",
-        "birth_place": "",
-        "education": "",
-        "languages": "",
-        "categories": "",
-        "list_of_books": "",
-        "description": ""
-    },
-    {
         "name": "ලෙස්ටර් ජෙම්ස් පීරිස්",
+        "name_english": "Lester James Peiris",
         "date_of_birth": "1919 අප්‍රේල් 5",
         "birth_place": "දෙහිවල, ශ්‍රී ලංකාව",
+        "birth_place_english": "Dehiwala, Sri Lanka",
         "education": [
             "කොළඔ ශාන්ත පීතර විද්‍යාලය"
         ],
@@ -146,8 +146,10 @@
     },
     {
         "name": "ෂියාම් සෙල්වදුරෙයි",
+        "name_english": "Shyam Selvadurai",
         "date_of_birth": "12 පෙබරවාරි 1965",
         "birth_place": "කොළඹ, ශ්‍රී ලංකා",
+        "birth_place_english": "Colombo, Sri Lanka",
         "education": "",
         "languages": [
             "ඉංග්රීසි"
@@ -166,8 +168,10 @@
     },
     {
         "name": "සිරි ගුනසිංහ",
+        "name_english": "Siri Gunasinghe",
         "date_of_birth": "1925 පෙබරවාරි 18",
         "birth_place": "",
+        "birth_place_english": "",
         "education": "",
         "languages": [
             "සිංහල"
@@ -189,8 +193,10 @@
     },
     {
         "name": "ඒබ්‍රහම් තෝමස් ‍කොවූර්",
+        "name_english": "Abraham Thomas Kovur",
         "date_of_birth": "අප්‍රේල් 10, 1898",
         "birth_place": "තිරුවල්ලා, ට්‍රැවන්කෝර්, කේරල,  ඉන්දියාව",
+        "birth_place_english": "Thiruvalla, Travancore, Kerala, India",
         "education": [
             "තිරුවල්ලා හි ක්‍රිස්තියානි පාසලේ"
         ],
@@ -215,8 +221,10 @@
     },
     {
         "name": "ලියෝ ටෝල්ස්ටෝයි",
+        "name_english": "Leo Tolstoy",
         "date_of_birth": "1828 සැප්තැම්බර් 09",
         "birth_place": "යස්නායා පොලියානා, ටූලා ආණ්ඩුකාර, රුසියානු අධිරාජ්‍යය",
+        "birth_place_english": "Yasnaya Polyana, Governor of Tula, Russian Empire",
         "education": "",
         "languages": [
             "රුසියානු"
@@ -236,8 +244,10 @@
     },
     {
         "name": "චාල්ස් ජෝන් හෆම් ඩිකන්ස්",
+        "name_english": "Charles John Huffam Dickens",
         "date_of_birth": "7 පෙබරවාරි 1812",
         "birth_place": "ලෑන්ඩ්පෝර්ට්, හැම්ප්ෂයර්,\r\nඑංගලන්තය",
+        "birth_place_english": "Portsmouth, Hampshire, England",
         "education": "",
         "languages": [
             "ඉංග්රීසි"
@@ -267,8 +277,10 @@
     },
     {
         "name": "ගුණදාස අමරසේකර",
+        "name_english": "Gunadasa Amarasekara",
         "date_of_birth": "1929 නොවැම්බර් 12",
         "birth_place": "ගාල්ල දිස්ත්‍රික්කයේ යටලමත්ත ප‍්‍රදේශයේ",
+        "birth_place_english": "In the Yatalamatta area in the Galle district",
         "education": [
             "ගාල්ල මහින්ද සහ නොළඹ නාලන්දා විද්‍යාලය යන විද්‍යාල"
         ],
@@ -303,8 +315,10 @@
     },
     {
         "name": "ගජමන් නෝනා",
+        "name_english": "Gajaman Nona",
         "date_of_birth": "1746 මාර්තු 10",
         "birth_place": "",
+        "birth_place_english": "",
         "education": "",
         "languages": [
             "සිංහල"
@@ -324,8 +338,10 @@
     },
     {
         "name": "එරික් ඉලයප්ආරච්චි",
+        "name_english": "Eric Ilayaparachchi",
         "date_of_birth": "1954 දෙසැම්බර් 16",
         "birth_place": "",
+        "birth_place_english": "",
         "education": "",
         "languages": [
             "සිංහල"
@@ -352,8 +368,10 @@
     },
     {
         "name": "ජෝන් ද සිල්වා",
+        "name_english": "John de Silva",
         "date_of_birth": "1857 ජනවාරි 13",
         "birth_place": "කෝට්ටේහිදී",
+        "birth_place_english": "Kotte",
         "education": "",
         "languages": [
             "සිංහල"
@@ -377,8 +395,10 @@
     },
     {
         "name": "ඉන්ද්‍රානි කරුණාරත්න",
+        "name_english": "Indrani Karunaratne",
         "date_of_birth": "15 පෙබරවාරි",
         "birth_place": "බොරැල්ල",
+        "birth_place_english": "Borella",
         "education": [
             "රීජන්ට් වීදියේ ප්‍රෙස්බිටේරියන් බාලිකා පාසල"
         ],
@@ -411,19 +431,11 @@
         "description": "ඇය පෙබරවාරි 15 ​​වන දින බොරැල්ලේ උපත ලැබූ අතර පවුලේ ගැහැණු ළමයින් තිදෙනෙකුගෙන් දෙවැන්නා වේ.ඇගේ පියා අබේපාල පෙරේරා බෞද්ධයකු වූ අතර මව මියුරියල් පෙරේරා කිතුනුවකු වූවාය. ඇයට මල්ලිකා නම් වැඩිමහල් සොහොයුරියක් සහ අයිරාංගනී නම් බාල සහෝදරියක් සිටී. ඉන්ද්‍රානි රිජන්ට් වීදියේ ප්‍රෙස්බිටේරියන් බාලිකා පාසලේ ඉගෙනුම ලැබුවා.ඇය පාසලේදී උඩරට නර්තනය හැදෑරුවාය. ඇයගේ සොහොයුරිය වන මල්ලිකා 1965 වසරේ සිට ගායනය කරන අතර එහිදී ඇය සාමා චිත්‍රපටයේ පසුබිම් ගායිකාව වූවාය.ඇය 1979 දී ජේම්ස් ශ්‍රී නිවාසන් සමඟ විවාහ වී ඇත. ඇයට ඔහුව මුණගැසුණේ ඔහු නෙළුම් තැටි නිෂ්පාදකයා වූ ඔහුගේ හා හා හොරේ දනුනා ගීතය නිෂ්පාදනය කරන අතරතුරදීය. මෙම යුවළට එක් දියණියක් වන අංජලී චාරුකේෂි සහ එක් පුතෙකු වන පාස්ටර් නිමේන්ද්‍ර ධනංජය ඇත. නිමේන්ද්‍ර විවාහ වී සිටින්නේ රොෂානි සමඟයි. ඔහු ගියේ ශාන්ත තෝමස් විද්‍යාලයට. ඊට පස්සේ රෝයල් ඉන්ස්ටිටියුට් එකෙන් උසස් පෙළ හැදෑරුවා. පසුව 2009 දී නිමේන්ද්‍ර ව්‍යාපාර අධ්‍යයනය පිළිබඳ උපාධියක් ලබා ගත්තේය."
     },
     {
-        "name": "යුධංජය විජේරත්න",
-        "date_of_birth": "1992 නොවැම්බර් 26",
-        "birth_place": "රත්නපුර, ශ්‍රී ලංකාව",
-        "education": "",
-        "languages": "",
-        "categories": "",
-        "list_of_books": "",
-        "description": ""
-    },
-    {
         "name": "දෙනගම සිරිවර්ධන",
+        "name_english": "Denagama Siriwardena",
         "date_of_birth": "1945 පෙබරවාරි 19",
         "birth_place": "වෑපතිර - හක්මන",
+        "birth_place_english": "Vepathira - Hakmana",
         "education": [
             "පනන්වල රජයේ පාසල"
         ],
@@ -454,8 +466,10 @@
     },
     {
         "name": "ගොඩ්වින් සමරරත්න",
+        "name_english": "Godwin Samararatne",
         "date_of_birth": "1932 සැප්තැම්බර් 6",
         "birth_place": "මහනුවර, බ්‍රිතාන්‍ය ලංකාව",
+        "birth_place_english": "Kandy, British Ceylon",
         "education": [
             "මහනුවර ධර්මරාජ විද්‍යාලය"
         ],
@@ -478,8 +492,10 @@
     },
     {
         "name": "චිත්‍රානන්ද අභිසේකර",
+        "name_english": "Chithrananda Abhisekara",
         "date_of_birth": "1930 මාර්තු 7",
         "birth_place": "ගෝනගල, ශ්‍රී ලංකාව",
+        "birth_place_english": "Gonagala, Sri Lanka",
         "education": [
             "කොළඹ නාලන්දා විද්‍යාලය"
         ],
@@ -504,8 +520,10 @@
     },
     {
         "name": "නයෝමි මුණවීර",
+        "name_english": "Nayomi munaweera",
         "date_of_birth": "1973",
         "birth_place": "ඕක්ලන්ඩ්",
+        "birth_place_english": "Auckland",
         "education": [
             "කැලිෆෝනියා විශ්ව විද්‍යාලය",
             "ඉර්වින්"
@@ -524,8 +542,10 @@
     },
     {
         "name": "විලියම් ෂේක්ස්පියර්",
+        "name_english": "William Shakespeare",
         "date_of_birth": "1564 අප්‍රේල් 26",
         "birth_place": "ස්ටැෆර්ඩ් - අපෝන් - ඇවෝන් පෙදෙසෙහිය",
+        "birth_place_english": "Stratford-upon-Avon, England",
         "education": "",
         "languages": [
             "ඉංග්රීසි"
@@ -551,8 +571,10 @@
     },
     {
         "name": "රූ ෆ්‍රීමන්",
+        "name_english": "Ru Freeman",
         "date_of_birth": "1967",
         "birth_place": "කොළඹ, ශ්‍රී ලංකාව",
+        "birth_place_english": "Colombo, Sri Lanka",
         "education": [
             "බේට්ස් විද්‍යාලය",
             "මර්ඩොක් විශ්ව විද්යාලය"
@@ -572,8 +594,10 @@
     },
     {
         "name": "කේ.එම්. ද සිල්වා",
+        "name_english": "K.M. de Silva",
         "date_of_birth": "1931 දෙසැම්බර් 31",
         "birth_place": "",
+        "birth_place_english": "",
         "education": [
             "ලංකා විශ්වවිද්‍යාලය",
             "පේරාදෙණිය ලන්ඩන් විශ්ව විද්යාලය"
@@ -599,8 +623,10 @@
     },
     {
         "name": "ජේ. කේ. රෝලිං",
+        "name_english": "Joanne Rowling",
         "date_of_birth": "31 ජූලි 1965",
         "birth_place": "යේට්, ග්ලූසෙස්ටර්ෂයර්, එංගලන්තය",
+        "birth_place_english": "Yate, Gloucestershire, England",
         "education": [
             "එඩින්බර්ග් විශ්වවිද්‍යාලය"
         ],
@@ -617,8 +643,10 @@
     },
     {
         "name": "ජේ.ආර්.ජයවර්ධන",
+        "name_english": "",
         "date_of_birth": "1906 සැප්තැම්බර් 17",
         "birth_place": "කොළඹ",
+        "birth_place_english": "",
         "education": [
             "කොළඹ රාජකීය විද්‍යාලය"
         ],
@@ -635,8 +663,10 @@
     },
     {
         "name": "ජී. ඩී. එල්. පෙරේරා",
+        "name_english": "",
         "date_of_birth": "",
         "birth_place": "කොළඹ",
+        "birth_place_english": "",
         "education": [
             "කොළඹ නාලන්දා විද්‍යාලය"
         ],
@@ -658,8 +688,10 @@
     },
     {
         "name": "ස්ටැන්ලි ජයරාජා තම්බියා",
+        "name_english": "Stanley Jayaraja Tambiah",
         "date_of_birth": "16 January 1929",
-        "birth_place": "",
+        "birth_place": "කොළඹ",
+        "birth_place_english": "Colombo",
         "education": [
             "ගල්කිස්සේ ශාන්ත තොමස් විද්‍යාලය"
         ],
@@ -679,8 +711,10 @@
     },
     {
         "name": "කරුණාරත්න අබේසේකර",
+        "name_english": "Karunarathne Abeysekara",
         "date_of_birth": "1930 ජුනි මස 03",
         "birth_place": "මාතර රත්මලේ බඹරැන්ද",
+        "birth_place_english": "Matara",
         "education": [
             "කොළඹ නාලන්දා විද්‍යාලය"
         ],
@@ -703,8 +737,10 @@
     },
     {
         "name": "චින්තන ධර්මදාස",
+        "name_english": "Chinthana Dharmadasa",
         "date_of_birth": "1976 නොවැම්බර් 27",
         "birth_place": "මොරටුව",
+        "birth_place_english": "Moratuwa",
         "education": [
             "පේරාදෙණිය විශ්ව විද්‍යාලය"
         ],
@@ -722,8 +758,10 @@
     },
     {
         "name": "ධර්මසේන පතිරාජ",
+        "name_english": "Dharmasena Pathiraja",
         "date_of_birth": "1943 මාර්තු 28",
         "birth_place": "මහනුවර",
+        "birth_place_english": "Kandy",
         "education": [
             "මහනුවර ධර්මරාජ විද්‍යාලය"
         ],
@@ -745,8 +783,10 @@
     },
     {
         "name": "රොමේෂ් ගුණසේකර",
+        "name_english": "Romesh Gunasekara",
         "date_of_birth": "1954 ජනවාරි 1",
         "birth_place": "කොළඹ",
+        "birth_place_english": "Colombo",
         "education": "",
         "languages": [
             "English"
@@ -770,8 +810,10 @@
     },
     {
         "name": "බී. ඒ. ඩබ්ලිව්. ජයමාන්න",
+        "name_english": "D.A.W.Jayamanne",
         "date_of_birth": "1908 මැයි 02",
         "birth_place": "මීගමුව",
+        "birth_place_english": "Negombo",
         "education": [
             "මාරිස් ස්ටෙලා විද්‍යාලය"
         ],
@@ -794,8 +836,10 @@
     },
     {
         "name": "කාර්තිගේසු සිවතම්බි",
+        "name_english": "Karthigesu Sivathambi",
         "date_of_birth": "1932 මැයි 10",
         "birth_place": "යාපනය",
+        "birth_place_english": "Jaffna",
         "education": [
             "සහිරා විද්‍යාලය",
             "විග්නේෂ්වර විද්‍යාලය"
@@ -821,8 +865,10 @@
     },
     {
         "name": "කොන්දුල් ආරච්චිගේ විල්සන් පෙරේරා",
+        "name_english": "Kondul Arachchige Wilson Perera",
         "date_of_birth": "26 අප්‍රේල් 1926",
         "birth_place": "කොළඹ",
+        "birth_place_english": "Colombo",
         "education": [
             "ඕල්කට් විද්‍යාලය"
         ],
@@ -849,8 +895,10 @@
     },
     {
         "name": "මල්ලිකයි සී. කුමාර්",
+        "name_english": "Mallikai C. Kumar",
         "date_of_birth": "1944 ජනවාරි 04",
         "birth_place": "තලවකැලේ",
+        "birth_place_english": "Thalawakale",
         "education": [
             "දෙමළ මහා විද්‍යාලය තලවාකැලේ"
         ],
@@ -874,8 +922,10 @@
     },
     {
         "name": "යසපාලිත නානායක්කාර",
+        "name_english": "Yasapalitha Nanayakkara",
         "date_of_birth": "1940 ජුනි 19",
         "birth_place": "ගාල්ල",
+        "birth_place_english": "Galle",
         "education": [
             "රිච්මන්ඩ් විද්‍යාලය"
         ],
@@ -894,8 +944,10 @@
     },
     {
         "name": "රිචඩ් ලෙස්ලි බ්‍රෝහියර්",
+        "name_english": "Richard Leslie Brohier",
         "date_of_birth": "1892 ඔක්තෝබර් 5",
         "birth_place": "කොළඹ",
+        "birth_place_english": "Colombo",
         "education": [
             "Colombo Academy",
             "Technical College"
@@ -919,8 +971,10 @@
     },
     {
         "name": "ජයතිලක ද සිල්වා",
+        "name_english": "Jayathilaka De Silva",
         "date_of_birth": "1938 ජූනි 14",
         "birth_place": "අම්බලන්ගොඩ",
+        "birth_place_english": "Ambalangoda",
         "education": [
             "හික්කඩුව මධ්‍ය විද්‍යාලය"
         ],
@@ -942,8 +996,10 @@
     },
     {
         "name": "තිලක් සේනසිංහ",
+        "name_english": "Thilak Senasinghe",
         "date_of_birth": "1958 මාර්තු22",
         "birth_place": "කොළඹ",
+        "birth_place_english": "Colombo",
         "education": [
             "කොළඹ රාජකීය විද්‍යාලය"
         ],
@@ -967,8 +1023,10 @@
     },
     {
         "name": "කේ.ජයතිලක (කළුආච්චිගමගේ ජයතිලක)",
+        "name_english": "K. Jayathilaka",
         "date_of_birth": "1926 ජූනි 27",
         "birth_place": "ගම්පහ",
+        "birth_place_english": "Gampaha",
         "education": [
             "මහගමසේකර මහ විද්‍යාලය"
         ],
@@ -1000,8 +1058,10 @@
     },
     {
         "name": "රිචඩ් ලයනල් ස්පිට්ල්",
+        "name_english": "Richard Lionel Spittel",
         "date_of_birth": "1881 දෙසැම්බර් 9",
         "birth_place": "තංගල්ල",
+        "birth_place_english": "Tangalle",
         "education": [
             "කොළඹ රාජකීය විද්‍යාලය"
         ],
@@ -1027,8 +1087,10 @@
     },
     {
         "name": "ගාමිණී හත්තොටුවේගම",
+        "name_english": "",
         "date_of_birth": "1939 නොවැම්බර් 29",
         "birth_place": "ගාල්ල",
+        "birth_place_english": "",
         "education": [
             "රිච්මන්ඩ් විද්‍යාලය"
         ],
@@ -1048,8 +1110,10 @@
     },
     {
         "name": "චිත්‍රා ෆර්නෑන්ඩෝ",
+        "name_english": "Chitra Fernando",
         "date_of_birth": "1935",
         "birth_place": "කළුතර",
+        "birth_place_english": "Kalutara",
         "education": [
             "විශාඛා  විද්‍යාලය"
         ],
@@ -1070,8 +1134,10 @@
     },
     {
         "name": "ඒ. වේලුපිල්ලෙයි",
+        "name_english": "A.Velupillai",
         "date_of_birth": "1936 නොවැම්බර් 21",
         "birth_place": "යාපනය",
+        "birth_place_english": "Jaffna",
         "education": [
             "පුත්තලයි දෙමළ විද්‍යාලය"
         ],
@@ -1095,8 +1161,10 @@
     },
     {
         "name": "ලිෂාන් පෙරේරා",
+        "name_english": "Lishan Perera",
         "date_of_birth": "1994 ජුලි  3",
         "birth_place": "කොළඹ",
+        "birth_place_english": "Colombo",
         "education": [
             "Colombo International School"
         ],
@@ -1115,8 +1183,10 @@
     },
     {
         "name": "සොනාලි දැරණියගල",
+        "name_english": "Sonali Deraniyagala",
         "date_of_birth": "1964",
         "birth_place": "කොළඹ",
+        "birth_place_english": "Colombo",
         "education": [
             "Cambridge University",
             "University of Oxford"
@@ -1134,8 +1204,10 @@
     },
     {
         "name": "සයිමන් නවගත්තේගම",
+        "name_english": "",
         "date_of_birth": "සැප්තැම්බර් 15, 1940",
         "birth_place": "අනුරාධපුර",
+        "birth_place_english": "",
         "education": "",
         "languages": [
             "සිංහල"
@@ -1164,8 +1236,10 @@
     },
     {
         "name": "ජයලාල් රෝහන",
+        "name_english": "",
         "date_of_birth": "1964 නොවැම්බර් 1",
         "birth_place": "කොළඹ",
+        "birth_place_english": "",
         "education": [
             "කෝට්ටේ ආනන්ද ශාස්ත්‍රාලය",
             "පේරාදෙනිය විශ්ව විද්‍යාලය"
@@ -1186,8 +1260,10 @@
     },
     {
         "name": "සමන් කැලේගම",
+        "name_english": "Saman Kalegama",
         "date_of_birth": "6 අප්‍රේල් 1959",
         "birth_place": "කොළඹ",
+        "birth_place_english": "Colombo",
         "education": [
             "ඔක්ස්ෆර්ඩ් විශ්වවිද්‍යාලය",
             "ඉන්දියානු තාක්ෂණික ආයතනය (අයිඅයිටී)",
@@ -1211,8 +1287,10 @@
     },
     {
         "name": "සිරිල් කොඩිකාර",
+        "name_english": "Siril Kodikara",
         "date_of_birth": "1942 අගෝස්තු 27",
         "birth_place": "කොළඹ",
+        "birth_place_english": "Colombo",
         "education": "",
         "languages": [
             "සිංහල"
@@ -1232,8 +1310,10 @@
     },
     {
         "name": "අරීසෙන් අහුබුදු",
+        "name_english": "Arisen Ahubudu",
         "date_of_birth": "1920 මාර්තු 18",
         "birth_place": "කොග්ගල",
+        "birth_place_english": "Koggala",
         "education": "",
         "languages": [
             "සිංහල"
@@ -1262,8 +1342,10 @@
     },
     {
         "name": "විජයතුංග මුදලිගේ හරිශ්චන්ද්‍ර විජයතුංග",
+        "name_english": "",
         "date_of_birth": "1931 ඔක්තෝබර් 25",
         "birth_place": "මිනුවන්ගොඩ",
+        "birth_place_english": "",
         "education": [
             "කොළඹ නාලන්දා විද්‍යාලය",
             "කොළඹ විශ්ව විද්‍යාලය"
@@ -1290,8 +1372,10 @@
     },
     {
         "name": "සුනන්ද මහේන්ද්‍ර",
+        "name_english": "Sunanda Mahendra",
         "date_of_birth": "1938 ජනවාරි 28",
         "birth_place": "පිලියන්දල",
+        "birth_place_english": "Piliyandala",
         "education": [
             "ධර්මරාජ විද්‍යාලය",
             "කැළණිය විශ්ව විද්‍යාලය"
@@ -1312,8 +1396,10 @@
     },
     {
         "name": "ජී‍.බී. සේනානායක",
+        "name_english": "G.B. Senanayake",
         "date_of_birth": "1913 ජුලි 13",
         "birth_place": "ශ්‍රී ලංකාව",
+        "birth_place_english": "Sri Lanka",
         "education": "",
         "languages": [
             "සිංහල"
@@ -1352,8 +1438,10 @@
     },
     {
         "name": "කළුතර කෝරලලාගේ එඩ්වඩ් විනිෆ්‍රඩ් බ්‍රිටෝ අදිකාරම්",
+        "name_english": "",
         "date_of_birth": "1905 මාර්තු 05",
         "birth_place": "ශ්‍රී ලංකාව",
+        "birth_place_english": "",
         "education": [
             "ලන්ඩන් ශාස්ත්‍රාලය"
         ],
@@ -1374,8 +1462,10 @@
     },
     {
         "name": "ජේම්ස් ගුණවර්ධන",
+        "name_english": "James Gunawardane",
         "date_of_birth": "1921",
         "birth_place": "පන්නල",
+        "birth_place_english": "Pannala",
         "education": [
             "ලන්ඩන් ශාස්ත්‍රාලය"
         ],
@@ -1393,8 +1483,10 @@
     },
     {
         "name": "නිහාල් ශ්‍රී අමරසේකර",
+        "name_english": "Nihal Shr Amarasekara",
         "date_of_birth": "1947 ජුලි16",
         "birth_place": "නුවර",
+        "birth_place_english": "Kandy",
         "education": [
             "ශාන්ත තෝමස් විද්‍යාලය"
         ],
@@ -1412,8 +1504,10 @@
     },
     {
         "name": "කන්තයියා කුණරාසා",
+        "name_english": "Kanthayya Kunarasa",
         "date_of_birth": "1941",
         "birth_place": "යාපනය",
+        "birth_place_english": "Jaffna",
         "education": [
             "පේරාදෙණිය ලංකා විශ්වවිද්‍යාලය  යාපනය විශ්වවිද්‍යාලය"
         ],
@@ -1433,8 +1527,10 @@
     },
     {
         "name": "ලයනල් ද ෆොන්සේකා",
+        "name_english": "Layanel De Fonseka",
         "date_of_birth": "1889 ඔක්තෝබර් 27",
         "birth_place": "කොළඹ",
+        "birth_place_english": "Colombo",
         "education": [
             "කොළඹ රාජකීය විද්‍යාලය",
             "ඔක්ස්ෆර්ඩ් විශ්වවිද්‍යාලය"
@@ -1453,8 +1549,10 @@
     },
     {
         "name": "ඩබ්ලිව්.ඒ. සිල්වා",
+        "name_english": "W.L.Silva",
         "date_of_birth": "1890 ජනවාරි 16",
         "birth_place": "කොළඹ",
+        "birth_place_english": "Colombo",
         "education": "",
         "languages": [
             "සිංහල"
@@ -1480,8 +1578,10 @@
     },
     {
         "name": "රජීව විජේසිංහ",
+        "name_english": "Rajeewa Wejesinghe",
         "date_of_birth": "1954 මැයි 16",
         "birth_place": "ශ්‍රී ලංකාව",
+        "birth_place_english": "Sri Lanka",
         "education": [
             "ශාන්ත තෝමස් විද්‍යාලය",
             "ඔක්ස්ෆර්ඩ් විශ්වවිද්‍යාලය"
@@ -1499,8 +1599,10 @@
     },
     {
         "name": "සෝමවීර සේනානායක",
+        "name_english": "Somaweera Senanayake",
         "date_of_birth": "1938",
         "birth_place": "බද්දේගම",
+        "birth_place_english": "Baddegama",
         "education": "",
         "languages": [
             "සිංහල"
@@ -1516,8 +1618,10 @@
     },
     {
         "name": "චින්තන ධර්මදාස",
+        "name_english": "Chinthana Darmadasa",
         "date_of_birth": "1976 නොවැම්බර් 27",
-        "birth_place": "",
+        "birth_place": "ශ්‍රී ලංකාව",
+        "birth_place_english": "Sri Lanka",
         "education": [
             "පේරාදෙණිය විශ්වවිද්‍යාලය"
         ],
@@ -1537,8 +1641,10 @@
     },
     {
         "name": "සී. ඩබ්ලිව්. තමෝතරම්පිල්ලේ",
+        "name_english": "C.W. Thamotharapillei",
         "date_of_birth": "1832 සැප්තැම්බර් 12",
         "birth_place": "ත්‍රිකුණාමලය",
+        "birth_place_english": "Trincomalee",
         "education": "",
         "languages": [
             "දෙමළ"
@@ -1560,8 +1666,10 @@
     },
     {
         "name": "රෙජි සිරිවර්ධන",
+        "name_english": "Jessy Siriwardhana",
         "date_of_birth": "1922 මැයි 15",
         "birth_place": "රත්මලාන",
+        "birth_place_english": "Rathmalana",
         "education": [
             "ශාන්ත තෝමස් විදුහල",
             "ආනන්ද විද්‍යාලය",
@@ -1589,8 +1697,10 @@
     },
     {
         "name": "තොටගමුවේ ශ්‍රී රාහුල හිමි",
+        "name_english": "Parackrama Kodithuwakku",
         "date_of_birth": "1408",
         "birth_place": "ශ්‍රී ලංකාව",
+        "birth_place_english": "Si Lanka",
         "education": "",
         "languages": [
             "සිංහල",
@@ -1610,8 +1720,10 @@
     },
     {
         "name": "පරාක්‍රම කොඩිතුවක්කු",
+        "name_english": "",
         "date_of_birth": "",
         "birth_place": "",
+        "birth_place_english": "",
         "education": "",
         "languages": [
             "සිංහල"
@@ -1630,8 +1742,10 @@
     },
     {
         "name": "මොනිකා රුවන්පතිරණ",
+        "name_english": "Monika Ruwanpathirana",
         "date_of_birth": "26 පෙබරවාරි 1946",
         "birth_place": "මාතර, ශ්‍රී ලංකාව",
+        "birth_place_english": "Matara",
         "education": [
             "සාන්ත තෝමස් උසස් බාලිකා විද්‍යාලය",
             "සංඝමිත්තා බාලිකා විද්‍යාලය",
@@ -1654,8 +1768,10 @@
     },
     {
         "name": "රත්න ශ්‍රී විජේසිංහ",
+        "name_english": "Rathna Sri Wijeysinghe",
         "date_of_birth": "1953 ජුනි 2",
         "birth_place": "නාකියාදෙණිය තෙල්ලඹුර",
+        "birth_place_english": "Nakiyadeniya, Thellambura",
         "education": [
             "හික්කඩුවේ ශ්‍රී සුමංගල මධ්‍ය මහා විද්‍යාලය",
             "ගාල්ල රිච්මන්ඞ් විද්‍යාලය",
@@ -1678,8 +1794,10 @@
     },
     {
         "name": "සුචරිත ගම්ලත්",
+        "name_english": "Sucharitha Gamlath",
         "date_of_birth": "1934 මාර්තු 10",
         "birth_place": "ගම්පහ",
+        "birth_place_english": "Gampaha",
         "education": [
             "බර්ක්බෙක්",
             "ලන්ඩන් විශ්ව විද්‍යාලය"
@@ -1699,8 +1817,10 @@
     },
     {
         "name": "ෂෙල්ටන් පයාගල",
+        "name_english": "Shelton Payagala",
         "date_of_birth": "",
         "birth_place": "",
+        "birth_place_english": "",
         "education": [
             "ශ්‍රී පාද විද්‍යාලය",
             "වේල්ස් කුමර විද්‍යාලය මොරටුව"
@@ -1720,8 +1840,10 @@
     },
     {
         "name": "මුනිදාස කුමාරතුංග",
+        "name_english": "Munidasa Kumarathunga",
         "date_of_birth": "1887 ජූලි 25",
         "birth_place": "දික්වැල්ල",
+        "birth_place_english": "Dikwella",
         "education": [
             "දික්වැල්ල බෞද්ධ විද්‍යාලය",
             "ශාන්ත තෝමස් විද්‍යාලය"
@@ -1749,8 +1871,10 @@
     },
     {
         "name": "ඇස්. මහින්ද හිමි",
+        "name_english": "S. Mahinda Himi",
         "date_of_birth": "1901",
         "birth_place": "පෙම්පා ටෙන්ඩුපි සර්කි චෙරින්",
+        "birth_place_english": "Tibet",
         "education": [
             "විද්‍යෝදය පිරිවෙන",
             "මරදාන"
@@ -1792,8 +1916,10 @@
     },
     {
         "name": "විමලරත්න කුමාරගම",
+        "name_english": "Vimalarathne Kumaragama",
         "date_of_birth": "1919 ජනවාරි 18",
         "birth_place": "පාතදුම්බර",
+        "birth_place_english": "Pathadumbara",
         "education": [
             "කටුගස්තොට ශ්‍රී රාහුල විද්‍යාලය",
             "නුවර ධර්මරාජ විද්‍යාලය",
@@ -1818,8 +1944,10 @@
     },
     {
         "name": "රැයිපියෙල් තෙන්නකෝන්",
+        "name_english": "Rapiyel Thennakone",
         "date_of_birth": "1899 දෙසැම්බර් 19",
         "birth_place": "මීගමුව",
+        "birth_place_english": "Negambo",
         "education": [
             "රද්දොළුවේ බුදුනු පාසල"
         ],
@@ -1844,8 +1972,10 @@
     },
     {
         "name": "මහගම සේකර",
+        "name_english": "Mahagama Sekara",
         "date_of_birth": "1929 අප්‍රියෙල් 7",
         "birth_place": "රදාවාන",
+        "birth_place_english": "Radawana, Dompe",
         "education": [
             "රදාවාන රජයේ පිරිමි පාසල"
         ],
@@ -1878,8 +2008,10 @@
     },
     {
         "name": "අනගාරික ධර්මපාලතුමා",
+        "name_english": "Anagarika Dharmapala",
         "date_of_birth": "1864 සැප්තැම්බර්  17",
         "birth_place": "කොළඹ",
+        "birth_place_english": "Colombo",
         "education": [
             "කොළඹ ශාන්ත බෙනඩික්",
             "ගල්කිස්ස ශාන්ත තෝමස්",
@@ -1899,8 +2031,10 @@
     },
     {
         "name": "සුගතපාල ද සිල්වා",
+        "name_english": "Sugathapala De Silva",
         "date_of_birth": "1928 අගෝස්තු 04",
         "birth_place": "මිදිගම",
+        "birth_place_english": "Midigama",
         "education": "",
         "languages": [
             "සිංහල"
@@ -1917,8 +2051,10 @@
     },
     {
         "name": "චන්ද්‍ර රිචඩ් ද සිල්වා",
+        "name_english": "Chandra Richard De Silva",
         "date_of_birth": "",
         "birth_place": "කොළඹ",
+        "birth_place_english": "Colombo",
         "education": "",
         "languages": [
             "ඉංග්‍රීසි"
@@ -1936,8 +2072,10 @@
     },
     {
         "name": "නලින් ද සිල්වා",
+        "name_english": "Nalin De Silva",
         "date_of_birth": "1944 ඔක්තෝම්බර් 20",
         "birth_place": "පානදුර",
+        "birth_place_english": "Panadura",
         "education": [
             "වෑකඩ(පානදුර) බෞද්ධාලෝක මහා විද්‍යාලය",
             "කොළඹ තර්ස්ටන් විද්‍යාලය",
@@ -1975,8 +2113,10 @@
     },
     {
         "name": "ටී. බී. ඉලංගරත්න",
+        "name_english": "T.B. Ilangaratne",
         "date_of_birth": "1913 පෙබරවාරි 27",
         "birth_place": "ගල ගෙදර",
+        "birth_place_english": "Galagedara",
         "education": [
             "ගලගෙදර විද්‍යාලය",
             "ශාන්ත අන්තොනි විද්‍යාලය"
@@ -2006,8 +2146,10 @@
     },
     {
         "name": "ලියනගේ අමරකීර්ති",
+        "name_english": "Liyanage Amarakeerthi",
         "date_of_birth": "1968 ජූනි 19",
         "birth_place": "කුලියාපිටිය",
+        "birth_place_english": "Kuliyapitiya",
         "education": [
             "දෙමටගොල්ල රජයේ විදුහල",
             "වැල්ලව මධ්‍ය මහා විද්‍යාලය",
@@ -2054,8 +2196,10 @@
     },
     {
         "name": "සිබිල් වෙත්තසිංහ",
+        "name_english": "Sibil Weththasinghe",
         "date_of_birth": "1927 ඔක්තෝබර් 31",
         "birth_place": "ගිංතොට, ගාල්ල",
+        "birth_place_english": "Gintota, Galle",
         "education": [
             "ගින්තොට බෞද්ධ මිශ්‍ර පාඨශාලාව",
             "බම්බලපිටියේ ශුද්ධ වූ පවුලේ කන්‍යාරාමය"
@@ -2084,8 +2228,10 @@
     },
     {
         "name": "අජිත් තිලකසේන",
+        "name_english": "Ajith Thilakasena",
         "date_of_birth": "1933",
         "birth_place": "",
+        "birth_place_english": "",
         "education": "",
         "languages": [
             "සිංහල"
@@ -2120,8 +2266,10 @@
     },
     {
         "name": "ටෙනිසන් පෙරේරා",
+        "name_english": "Tennyson Perera",
         "date_of_birth": "1940 පෙබරවාරි 2",
         "birth_place": "කැලණිය",
+        "birth_place_english": "Kelaniya",
         "education": [
             "කුමර විදුහල",
             "පේරාදෙණිය විශ්වවිද්‍යාලය"
@@ -2163,8 +2311,10 @@
     },
     {
         "name": "ඩබ්ලිව්.ඒ. සිල්වා",
+        "name_english": "W.A. Silva",
         "date_of_birth": "1890 ජනවාරි 16",
         "birth_place": "කොළඹ වැල්ලවත්ත",
+        "birth_place_english": "Wellawatte, Colombo",
         "education": [
             "බම්බලපිටිය ශාන්ත පීතර විදුහල"
         ],
@@ -2203,8 +2353,10 @@
     },
     {
         "name": "පියසේන කහඳගමගේ",
+        "name_english": "Piyasena Kahandagamage",
         "date_of_birth": "1938",
         "birth_place": "බද්දෙගම",
+        "birth_place_english": "Baddegama",
         "education": "",
         "languages": [
             "සිංහල"
@@ -2237,8 +2389,10 @@
     },
     {
         "name": "කේ. ජයතිලක",
+        "name_english": "K.Jayathilake",
         "date_of_birth": "1926 ජුනි 27",
         "birth_place": "කන්නිමහර",
+        "birth_place_english": "Kannimahara",
         "education": "",
         "languages": [
             "සිංහල"
@@ -2274,8 +2428,10 @@
     },
     {
         "name": "පියදාස සිරිසේන",
+        "name_english": "Piyadasa Sirisena",
         "date_of_birth": "1875 අගෝස්තු 31",
         "birth_place": "වරාහේන",
+        "birth_place_english": "Warahena",
         "education": [
             "ස්වභාෂා පාඨශාලාව"
         ],
@@ -2309,8 +2465,10 @@
     },
     {
         "name": "මයිකල් ඔන්ඩාචි",
+        "name_english": "Michael Ondaatje",
         "date_of_birth": "1943 සැප්තැම්බර් 12",
         "birth_place": "කොළඹ",
+        "birth_place_english": "Colombo",
         "education": [
             "ලෙනොස්විල්හි බිෂෝප් විද්‍යාලය",
             "ට්‍රොරන්ටෝ විශ්වවිද්‍යාලය",
@@ -2337,8 +2495,10 @@
     },
     {
         "name": "සුනේත්‍රා රාජකරුණානායක",
+        "name_english": "Sunethra Rajakarunanayake",
         "date_of_birth": "1954 පෙබරවාරි 7",
         "birth_place": "මොරටුව",
+        "birth_place_english": "Moratuwa",
         "education": [
             "ජා ඇල තුඩැල්ල කන්‍යාරාමය",
             "කෑගල්ල හෙට්ටිමුල්ල බණ්ඩාරනායක විද්‍යාලය",
@@ -2383,8 +2543,10 @@
     },
     {
         "name": "රෝස්මරී රොජර්ස්",
+        "name_english": "Rosemary Rogers",
         "date_of_birth": "1932 දෙසැම්බර් 7",
         "birth_place": "පානදුර",
+        "birth_place_english": "Panadura",
         "education": [
             "ලංකා විශ්වවිද්‍යාලය"
         ],
@@ -2412,8 +2574,10 @@
     },
     {
         "name": "සිරිල් සී පෙරේරා",
+        "name_english": "Siril C. Perera",
         "date_of_birth": "1923 ජූනි 3",
         "birth_place": "කොළඹ",
+        "birth_place_english": "Colombo",
         "education": "",
         "languages": [
             "සිංහල"
@@ -2441,8 +2605,10 @@
     },
     {
         "name": "ෂෙහාන් කරුණාතිලක",
+        "name_english": "Shehan Karunathilake",
         "date_of_birth": "",
         "birth_place": "කොළඹ",
+        "birth_place_english": "Colombo",
         "education": [
             "ශාන්ත තෝමස් විදුහල",
             "නවසීලන්තයේ Massey විශ්වවිද්‍යාලය"
@@ -2461,8 +2627,10 @@
     },
     {
         "name": "පොල්වත්තේ බුද්ධදත්ත මහානායක හිමි",
+        "name_english": "Polwatte Buddhadatta Thera",
         "date_of_birth": "1887",
         "birth_place": "අම්බලන්ගොඩ",
+        "birth_place_english": "Ambalangoda",
         "education": "",
         "languages": [
             "ඉංග්‍රීසි"
@@ -2477,8 +2645,10 @@
     },
     {
         "name": "චන්ද්‍රරත්න බණ්ඩාර",
+        "name_english": "Chandrarathna Bandara",
         "date_of_birth": "",
         "birth_place": "මහනුවර",
+        "birth_place_english": "Kandy",
         "education": [
             "ධර්මරාජ විද්‍යාලය"
         ],
@@ -2498,8 +2668,10 @@
     },
     {
         "name": "උපතිස්ස රහතන් වහන්සේ",
+        "name_english": "Upathissa Thera",
         "date_of_birth": "",
         "birth_place": "",
+        "birth_place_english": "",
         "education": "",
         "languages": [
             "සිංහල"
@@ -2515,8 +2687,10 @@
     },
     {
         "name": "සිරිකන්තලටුමි අරුලානන්දම්",
+        "name_english": "Sirikanthalatumi Arulanandam",
         "date_of_birth": "1961",
         "birth_place": "ඉනුවිල්",
+        "birth_place_english": "Inuvil",
         "education": [
             "සුන්නාකම් රාමනාදන් විද්‍යාලය",
             "යාපනය විශ්වවිද්‍යාලය"
@@ -2539,8 +2713,10 @@
     },
     {
         "name": "අගතා ක්‍රිස්ටි",
+        "name_english": "Agatha Christie",
         "date_of_birth": "",
         "birth_place": "ටෝකි , ඩෙවන්, එංගලන්තය",
+        "birth_place_english": "Torquay, Devon, England",
         "education": [
             "විධිමත් පාසල් අධ්‍යාපනයක් ලැබුවේ නැත"
         ],
@@ -2560,8 +2736,10 @@
     },
     {
         "name": "ඇලන් මුවර්",
+        "name_english": "Alan Moore",
         "date_of_birth": "1953 නොවැම්බර් 18",
         "birth_place": "නෝර්ත්හැම්ප්ටන්, එංගලන්තය",
+        "birth_place_english": "Northampton, England",
         "education": [
             "ස්ප්‍රිං-ලේන් ප්‍රාථමික පාසල",
             "නෝර්ත්හැම්ප්ටන් ප්‍රාථමික පාසල"
@@ -2583,8 +2761,10 @@
     },
     {
         "name": "ඇල්බට් කැමූස්",
+        "name_english": "Albert Camus",
         "date_of_birth": "1913",
         "birth_place": "ඇල්ජීරියාව",
+        "birth_place_english": "Algeria",
         "education": "",
         "languages": [
             "ඉංග්‍රීසි"
@@ -2603,8 +2783,10 @@
     },
     {
         "name": "ඇල්ඩස් හක්ස්ලි",
+        "name_english": "Aldous Huxley",
         "date_of_birth": "1894 ජූලි 26",
         "birth_place": "බර්ක්ෂයර්",
+        "birth_place_english": "Berkshire",
         "education": [
             "ඊටන් විද්‍යාලය"
         ],

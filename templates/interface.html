@@ -30,24 +30,24 @@
 
 <div class="container">
     <head>
-        <title>Song Search</title>
+        <title>Authors</title>
     </head>
     <hgroup class="mb20">
-        <h1 style="background-color:powderblue;"><center>Song Search Engine</center></h1>
+        <h1 style="background-color:powderblue;"><center>Welcome to Authors Search Engine</center></h1>
         <h3 class="lead"><center>Enter the search query</center></strong></h3>
     </hgroup>
 	<form action="http://127.0.0.1:5000/" method="post" align="center">
-		<input type="text" class="searchTerm" name="searchTerm"  placeholder="Search for your preferance">
-    	<input type="submit" value="Submit">
+		<input type="text" class="searchTerm" name="searchTerm"  placeholder="Search Here">
+    	<input type="submit" value="Search">
 	</form>
 
 	{% if hits %}
         <head>
-            <title>Song Search</title>
+            <title>Authors Search</title>
         </head>
     <hgroup class="mb20">
 		<h2><i><u>Search Results</u></i></h2>
-		<h3 class="lead" id="results"><strong class="text-danger">{{ num_results }}</strong> results founded for : <strong class="text-danger">{{  query  }}</strong></h3>
+		<h3 class="lead" id="results"><strong class="text-danger">{{ resultCount }}</strong> results founded for : <strong class="text-danger">{{  query  }}</strong></h3>
 	</hgroup>
 
 
@@ -57,9 +57,10 @@
 			<div class="col-md-12">
 				<h3 style="color:darkblue;">{{ hit._source.title }}</h3>
 				<ul class="meta-search">
-					<li><i class="glyphicon glyphicon-tags"></i> <span>Author Name - {{ hit._source.name }}</span></li>
+					<li><i class="glyphicon glyphicon-tags"></i> <span>Author Name - {{ hit._source.name }} ({{ hit._source.name_english }})</span></li>
+					<li><i class="glyphicon glyphicon-tags"></i> <span>Popularity - {{ hit._source.views }}</span></li>
                     <li><i class="glyphicon glyphicon-tags"></i> <span>Date of Birth - {{ hit._source.date_of_birth }}</span></li>
-					<li><i class="glyphicon glyphicon-tags"></i> <span>Birth Place - {{ hit._source.birth_place }}</span></li>
+					<li><i class="glyphicon glyphicon-tags"></i> <span>Birth Place - {{ hit._source.birth_place }} ({{ hit._source.birth_place_english }})</span></li>
                     <li><i class="glyphicon glyphicon-tags"></i> <span>Education - {{ hit._source.education }} </span></li>
                     <li><i class="glyphicon glyphicon-tags"></i> <span>Languages - {{ hit._source.languages }} </span></li>
                     <li><i class="glyphicon glyphicon-tags"></i> <span>Categories - {{ hit._source.categories }} </span></li>
