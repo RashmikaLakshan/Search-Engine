@@ -70,12 +70,10 @@ Following figure shows how the search engine works through the flask server.
 ### MultiSearch with Rule Base classification
 * Rule-based text mining is used to understand and extract data from the user entered query string. 
 
-* A basic set of rules are applied to each search phrase to identify the keywords, classify them into relevant search types. Acoording to the classification user query was classified to one of the following query type.
+* A basic set of rules are applied to each search phrase to identify the keywords, classify them into relevant search types. According to the classification user query was classified to one of the following query type.
 
-    1. Range query with Cross Fields
-    2. Faceted query with Cross Fields
-    3. Range query with phrase-prefix
-    4. Faceted query with phrase-prefix
+    1. Faceted query with Cross Fields
+    2. Faceted query with phrase-prefix
     
 Follwing diagram further shows the use of Rule Based Classification and Multisearch queries.
 
