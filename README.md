@@ -59,7 +59,7 @@ cleaned_authors.json file contains 103 Authors details with the following data.
 ## Project Architecture
 Following figure shows how the search engine works through the flask server.
 
-<!-- ![Search Engine Architecture](./images/architecture.png) -->
+![Search Engine Architecture](./images/architecture.png)
 
 ## Indexing & Query techniques
 
@@ -79,4 +79,4 @@ Following figure shows how the search engine works through the flask server.
     
 Follwing diagram further shows the use of Rule Based Classification and Multisearch queries.
 
-<!-- ![MultiSearch with Rule Base classification](./images/classification.png) -->
+![MultiSearch with Rule Base classification](./images/classification.png)
