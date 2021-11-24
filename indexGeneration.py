@@ -23,7 +23,7 @@ def createIndex():
                 "filter" : {
                     "edge_ngram_custom_filter":{
                         "type": "edge_ngram",
-                        "min_gram" : 2,
+                        "min_gram" : 3,
                         "max_gram" : 50,
                         "side" : "front"
                     }
@@ -41,6 +41,7 @@ def createIndex():
                             }
                         },
                         "analyzer" : "sinhala-analyzer",
+                        # "search_analyzer": "standard"
                     },
                     "name_english": {
                         "type": "text",
@@ -60,6 +61,7 @@ def createIndex():
                             }
                         },
                         "analyzer" : "sinhala-analyzer",
+                        # "search_analyzer": "standard"
                     },
                     "birth_place": {
                         "type": "text",
@@ -70,6 +72,7 @@ def createIndex():
                             }
                         },
                         "analyzer" : "sinhala-analyzer",
+                        # "search_analyzer": "standard"
                     },
                     "birth_place_english": {
                         "type": "text",
@@ -89,6 +92,7 @@ def createIndex():
                             }
                         },
                         "analyzer" : "sinhala-analyzer",
+                        # "search_analyzer": "standard"
                     },
                     "languages": {
                         "type": "text",
@@ -99,6 +103,7 @@ def createIndex():
                             }
                         },
                         "analyzer" : "sinhala-analyzer",
+                        # "search_analyzer": "standard"
                     },
                     "categories": {
                         "type": "text",
@@ -109,6 +114,7 @@ def createIndex():
                             }
                         },
                         "analyzer" : "sinhala-analyzer",
+                        # "search_analyzer": "standard"
                     },
                     "list_of_books": {
                         "type": "text",
@@ -119,6 +125,7 @@ def createIndex():
                             }
                         },
                         "analyzer" : "sinhala-analyzer",
+                        # "search_analyzer": "standard"
                     },
                     "description": {
                         "type": "text",
@@ -129,6 +136,7 @@ def createIndex():
                             }
                         },
                         "analyzer" : "sinhala-analyzer",
+                        # "search_analyzer": "standard"
                     }
             }
         }

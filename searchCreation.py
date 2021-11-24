@@ -10,12 +10,12 @@ INDEX = 'author-index'
 
 # synonym keywords
 synonym_writer = ['ගත්කරු','රචකයා', 'කතුවරයා', 'ලියන්නා','ලියන','රචිත','ලියපු','ලියව්‌ව','රචනා','රචක','ලියන්','ලියූ']
-synonym_eng_writer = ['author','write','wrote','writer','written','bookwriter']
+synonym_eng_writer = ['author', 'Author', 'authors', 'Authors', 'write','wrote','writer','written','bookwriter']
 
 synonym_birth_date = ['උපන්දිනය','ජන්ම දිනය','උපන්','උපත ලද','උපත','මෙලොවට','මෙලොව','එළිය','මෙලොවට','ඉපදුන', 'දින']
 
 synonym_birth_place = ['තැන','ස්ථානය','ප්‍රදේශය', 'නගරයේ', 'නගරය', 'ගම', 'ගමේ', 'ප්‍රාන්තය', 'ප්‍රාන්තයේ', 'පළාත','රට', 'රටේ']
-synonym_eng_birth_place = ['country', 'village', 'province', 'birth place', 'place', 'place of birth']
+synonym_eng_birth_place = ['country', 'village', 'province', 'birth place', 'place', 'place of birth', 'born']
 
 synonym_education = ['ඉගෙනුම', 'අධ්‍යාපනය', 'ඉගෙන', 'ශික්ෂා', 'ඉගෙනුම', 'ශික්ෂා']
 
@@ -34,7 +34,7 @@ def search(userQuery):
     keywordFields = []
     finalQueryField = []
     synonymFields = ["name","name_english", "date_of_birth", "birth_place", "birth_place_english","education","languages", "list_of_books"]
-    allFields = ["name","name_english", "date_of_birth","birth_place", "birth_place_english", "education", "languages", "categories", "list_of_books", "description"]
+    allFields = ["name","name_english", "date_of_birth","birth_place", "birth_place_english", "education", "languages", "categories", "list_of_books"]
 
     # remove synonyms from user query
     for word in tokens:
